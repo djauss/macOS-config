@@ -77,14 +77,13 @@ function mas_install () {
 }
 
 echo '\n👨‍🚀 Installing web navigators'
-brew install firefox google-chrome min opera opera-neon
+brew install firefox google-chrome
 
 echo '\n👨‍🚀 Installing social apps'
-brew install discord skype slack telegram
-mas_install 'Twitter'
+brew install discord slack telegram
 
 echo '\n👨‍🚀 Installing utilities apps'
-brew install aerial daisydisk exiftool balenaetcher eul exodus handbrake hugin iperf lolcat ncdu nmap nyancat spectacle speedtest_cli terminal-notifier thefuck trash virtualbox wakeonlan wireshark xmind
+brew install daisydisk exiftool balenaetcher eul handbrake iperf ncdu nmap spectacle speedtest_cli terminal-notifier thefuck
 mas_install 'Amphetamine'
 mas_install 'Gifski'
 mas_install 'Spark'
@@ -92,14 +91,11 @@ mas_install 'The Unarchiver'
 mas_install 'Yummy FTP'
 npm install -g brb tldr
 
-echo '\n👨‍🚀 Installing music apps'
-brew install lastfm spotify
-
 echo '\n👨‍🚀 Installing video apps'
 brew install iina vlc
 
 echo '\n👨‍🚀 Installing development apps'
-brew install arduino atom dbeaver-community docker intellij-idea-ce java kitematic postman python python3 sublime-text visual-studio-code
+brew install atom dbeaver-community docker kitematic postman python python3 sublime-text visual-studio-code
 mas_install 'Xcode'
 mas_install 'DevCleaner'
 apm install sync-settings
